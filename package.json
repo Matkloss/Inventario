@@ -1,0 +1,18 @@
+{
+  "name": "inventario-movil",
+  "version": "1.0.0",
+  "description": "Aplicación de inventario web para dispositivos móviles",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server .",
+    "build": "echo 'No se requiere un proceso de build para esta app simple'",
+    "clean": "echo 'No se requiere un proceso de limpieza para esta app simple'",
+    "ionic:build": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "http-server": "^14.1.1"
+  }
+}
